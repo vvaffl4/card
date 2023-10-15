@@ -18,7 +18,7 @@ type GLTFResult = GLTF & {
 }
 
 const Card: FC<JSX.IntrinsicElements['group']> = (props) => {
-  const { nodes, materials } = useGLTF('/card-transformed.glb') as GLTFResult
+  const { nodes, materials } = useGLTF('card-transformed.glb') as GLTFResult
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.Cube.geometry} material={materials.Material} />
