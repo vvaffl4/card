@@ -4,7 +4,6 @@ Command: npx gltfjsx@6.2.13 card.glb --transform --types
 Files: card.glb [28.56KB] > card-transformed.glb [8.3KB] (71%)
 */
 
-import * as THREE from 'three';
 import { useGLTF } from '@react-three/drei';
 import { GLTF } from 'three-stdlib';
 import { FC } from 'react';
