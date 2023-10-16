@@ -6,8 +6,8 @@ import Card from './Card'
 function App() {
   return (
     <>
-      <Canvas style={{ width: '100%', height: '400px' }}>
-        <Stage adjustCamera={false} intensity={0.2} shadows="contact" environment="city">
+      <Canvas className="canvas" style={{ width: '100%', height: '400px' }}>
+        <Stage adjustCamera={false} intensity={0.2} shadows={false} environment="sunset">
           <Float
             speed={1} // Animation speed, defaults to 1
             rotationIntensity={1} // XYZ rotation intensity, defaults to 1
